@@ -75,3 +75,19 @@ The following are some basic requirements needed:
 When the car arrives in front of the entry gate camera, YOLO identifies the position of the numberplate and crops the image. The image is then resized and preprocessed before it is passed to tesseract OCR to extract the text. The extracted text is then checked with regular expression of the standard Indian numberplate. If it is a match, then the numberplate text is further checked with the database. First, we check if the numberplate has already entered to avoid duplicate entries. If the numberplate has not entered, then we check it with the employee table to see if the vehicle belongs to the employee. Once checked, we assign the available parking slot to it.  
 
 <img width="524" alt="image" src="https://user-images.githubusercontent.com/78562069/210050085-702ad0cd-d906-4ced-9e4a-7b4ac011fe59.png">
+fig 5- Code Snippet.
+
+<img width="260" alt="image" src="https://user-images.githubusercontent.com/78562069/210050166-952aa7de-d73f-48ae-85ce-35165a33981d.png">
+fig 6- YOLO identifies the numberplate.
+
+<img width="467" alt="image" src="https://user-images.githubusercontent.com/78562069/210050197-519fac6b-05d4-4aac-a02c-c4e61d7a0734.png">
+fig 7- Tesseract OCR identifies the numberplate text and assigns slot.
+
+<img width="179" alt="image" src="https://user-images.githubusercontent.com/78562069/210050230-67469269-08e9-4db1-9a5a-ceb8095c6ffb.png">
+fig 8- The numberplate is entered in the entry table.
+
+When the car arrives in front of the exit gate camera, again the same process takes place. The numberplate text extracted is first checked with entry table. If it is present in the table, the slot assigned to that vehicle is released and the numberplate record is removed from the entry table. 
+
+<img width="482" alt="image" src="https://user-images.githubusercontent.com/78562069/210050304-c1bdad52-9c36-4866-a801-6812a30e1322.png">
+fig 9- Numberplate is identified and the assigned slot is released.
+
