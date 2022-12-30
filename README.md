@@ -98,6 +98,7 @@ fig 10- The numberplate is removed from the entry table
 <img width="452" alt="image" src="https://user-images.githubusercontent.com/78562069/210050500-242f2c8d-c59e-42aa-a8d3-edcc125b4479.png">
 
 fig 11- Precision-Recall Graph 
+
 The model trained has a Mean Average Precision of 0.756. Mean Average Precision is the area under the Precision-Recall curve.  
 
 
