@@ -45,16 +45,12 @@ C.	Applying OCR
 <img width="451" alt="image" src="https://user-images.githubusercontent.com/78562069/210048107-2bc6b9f8-5945-4104-8c4e-df1c12171fca.png">
       Fig1- Working of Vehicle Management System
 
-
-
 <img width="451" alt="image" src="https://user-images.githubusercontent.com/78562069/210048133-32d94561-727e-4c0c-9609-e865b24c0db6.png">
       Fig 2 – Training YOLO Model
      
      
-     
 <img width="451" alt="image" src="https://user-images.githubusercontent.com/78562069/210048173-45824374-7b6f-4e72-a0e4-e47d2ab9ed92.png">
       Fig 3- Output of YOLO model
-  
   
   
 <img width="451" alt="image" src="https://user-images.githubusercontent.com/78562069/210048206-754af53c-7b84-4891-9c59-269c3a07b08d.png">
@@ -79,3 +75,5 @@ When the car arrives in front of the entry gate camera, YOLO identifies the posi
 
 
 
+
+When the car arrives in front of the entry gate camera, YOLO identifies the position of the numberplate and crops the image. The image is then resized and preprocessed before it is passed to tesseract OCR to extract the text. The extracted text is then checked with regular expression of the standard Indian numberplate. If it is a match, then the numberplate text is further checked with the database. First, we check if the numberplate has already entered to avoid duplicate entries. If the numberplate has not entered, then we check it with the employee table to see if the vehicle belongs to the employee. Once checked, we assign the available parking slot to it.  
