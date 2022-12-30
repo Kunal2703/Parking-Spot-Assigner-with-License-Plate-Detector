@@ -72,3 +72,8 @@ The following are some basic requirements needed:
 ## 5.	IMPLEMENTATION 
  
 When the car arrives in front of the entry gate camera, YOLO identifies the position of the numberplate and crops the image. The image is then resized and preprocessed before it is passed to tesseract OCR to extract the text. The extracted text is then checked with regular expression of the standard Indian numberplate. If it is a match, then the numberplate text is further checked with the database. First, we check if the numberplate has already entered to avoid duplicate entries. If the numberplate has not entered, then we check it with the employee table to see if the vehicle belongs to the employee. Once checked, we assign the available parking slot to it.  
+
+
+
+When the car arrives in front of the exit gate camera, again the same process takes place. The numberplate text extracted is first checked with entry table. If it is present in the table, the slot assigned to that vehicle is released and the numberplate record is removed from the entry table.  
+![Uploading image.png…]()
