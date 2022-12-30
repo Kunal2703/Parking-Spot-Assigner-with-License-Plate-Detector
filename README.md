@@ -91,3 +91,20 @@ When the car arrives in front of the exit gate camera, again the same process ta
 <img width="482" alt="image" src="https://user-images.githubusercontent.com/78562069/210050304-c1bdad52-9c36-4866-a801-6812a30e1322.png">
 fig 9- Numberplate is identified and the assigned slot is released.
 
+<img width="267" alt="image" src="https://user-images.githubusercontent.com/78562069/210050459-40e74e14-7ae8-4e20-b360-b2a6b2445e56.png">
+fig 10- The numberplate is removed from the entry table
+
+## 6.	RESULTS
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/78562069/210050500-242f2c8d-c59e-42aa-a8d3-edcc125b4479.png">
+
+fig 11- Precision-Recall Graph 
+The model trained has a Mean Average Precision of 0.756. Mean Average Precision is the area under the Precision-Recall curve.  
+
+
+### APPENDIX A: GLOSSARY 
+ 
+•	OpenCV- OpenCV is a huge open-source library for computer vision, machine learning, and image processing and is used in real-time operation. By using it, one can process images and videos to identify objects, faces, or even handwriting of a human. 
+ 
+•	Tesseract- Tesseract is an open-source OCR or optical character recognition engine and command line program. OCR is a technology that allows for the recognition of text characters within a digital image. Tesseract can recognize over 100 languages out-ofthe-box, and can be trained to recognize other languages. It supports various output formats, including plain text, HTML, PDF and more. It also has unicode (UTF-8) support. 
+ 
+•	YOLO- YOLO stands for “You Only Look Once”, it is a popular family of real-time object detection algorithms. YOLOv7 is the latest official YOLO version created by the original authors of the YOLO architecture
