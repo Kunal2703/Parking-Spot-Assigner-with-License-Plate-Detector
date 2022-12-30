@@ -44,13 +44,19 @@ C.	Applying OCR
 ### 2.4	Design diagram
 <img width="451" alt="image" src="https://user-images.githubusercontent.com/78562069/210048107-2bc6b9f8-5945-4104-8c4e-df1c12171fca.png">
       Fig1- Working of Vehicle Management System
-      
+
+
+
 <img width="451" alt="image" src="https://user-images.githubusercontent.com/78562069/210048133-32d94561-727e-4c0c-9609-e865b24c0db6.png">
       Fig 2 – Training YOLO Model
-      
+     
+     
+     
 <img width="451" alt="image" src="https://user-images.githubusercontent.com/78562069/210048173-45824374-7b6f-4e72-a0e4-e47d2ab9ed92.png">
       Fig 3- Output of YOLO model
-      
+  
+  
+  
 <img width="451" alt="image" src="https://user-images.githubusercontent.com/78562069/210048206-754af53c-7b84-4891-9c59-269c3a07b08d.png">
       Fig 4- Workflow of Tesseract OCR
       
