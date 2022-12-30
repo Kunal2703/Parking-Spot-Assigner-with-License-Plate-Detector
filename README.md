@@ -86,7 +86,9 @@ fig 7- Tesseract OCR identifies the numberplate text and assigns slot.
 <img width="179" alt="image" src="https://user-images.githubusercontent.com/78562069/210050230-67469269-08e9-4db1-9a5a-ceb8095c6ffb.png">
 fig 8- The numberplate is entered in the entry table.
 
+
 When the car arrives in front of the exit gate camera, again the same process takes place. The numberplate text extracted is first checked with entry table. If it is present in the table, the slot assigned to that vehicle is released and the numberplate record is removed from the entry table. 
+
 
 <img width="482" alt="image" src="https://user-images.githubusercontent.com/78562069/210050304-c1bdad52-9c36-4866-a801-6812a30e1322.png">
 fig 9- Numberplate is identified and the assigned slot is released.
