@@ -81,7 +81,7 @@ fig 9- Numberplate is identified and the assigned slot is released.
 <img width="267" alt="image" src="https://user-images.githubusercontent.com/78562069/210050459-40e74e14-7ae8-4e20-b360-b2a6b2445e56.png">
 fig 10- The numberplate is removed from the entry table
 
-## 6.	RESULTS
+## RESULTS
 <img width="452" alt="image" src="https://user-images.githubusercontent.com/78562069/210050500-242f2c8d-c59e-42aa-a8d3-edcc125b4479.png">
 
 fig 11- Precision-Recall Graph 
