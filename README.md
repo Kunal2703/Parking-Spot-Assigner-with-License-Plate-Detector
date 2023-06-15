@@ -88,3 +88,7 @@ fig 11- Precision-Recall Graph
 
 The model trained has a Mean Average Precision of 0.756. Mean Average Precision is the area under the Precision-Recall curve.  
 
+
+
+##Download weights from this link- 
+https://upesstd-my.sharepoint.com/:f:/g/personal/500082749_stu_upes_ac_in/El_dy_efF5RCmXFhT5AcEBwB1kMBVwzaZ_r1UX8u3WVLWw?e=mAGVUp
